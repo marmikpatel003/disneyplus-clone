@@ -27,10 +27,6 @@ function Header() {
           <span>MOVIES</span>
         </a>
         <a>
-          <img src="/images/home-icon.svg" />
-          <span>HOME</span>
-        </a>
-        <a>
           <img src="/images/series-icon.svg" />
           <span>SERIES</span>
         </a>
@@ -48,6 +44,7 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 36px;
+  overflow-x: hidden;
 `;
 
 const Logo = styled.img`
