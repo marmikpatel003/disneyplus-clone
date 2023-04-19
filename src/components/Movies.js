@@ -1,35 +1,44 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Movies() {
   return (
     <Container>
       <h4>Recommended For You</h4>
       <Content>
-        <Wrap>
-          <img
-            src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-            alt="the simpsons"
-          />
-        </Wrap>
-        <Wrap>
-          <img
-            src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-            alt="the simpsons"
-          />
-        </Wrap>
-        <Wrap>
-          <img
-            src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-            alt="the simpsons"
-          />
-        </Wrap>
-        <Wrap>
-          <img
-            src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-            alt="the simpsons"
-          />
-        </Wrap>
+        <Link to={"/detail"}>
+          <Wrap>
+            <img
+              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+              alt="the simpsons"
+            />
+          </Wrap>
+        </Link>
+        <Link to={"/detail"}>
+          <Wrap>
+            <img
+              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+              alt="the simpsons"
+            />
+          </Wrap>
+        </Link>
+        <Link to={"/detail"}>
+          <Wrap>
+            <img
+              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+              alt="the simpsons"
+            />
+          </Wrap>
+        </Link>
+        <Link to={"/detail"}>
+          <Wrap>
+            <img
+              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+              alt="the simpsons"
+            />
+          </Wrap>
+        </Link>
       </Content>
     </Container>
   );
