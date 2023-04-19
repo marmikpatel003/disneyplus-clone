@@ -4,43 +4,82 @@ import { Link } from "react-router-dom";
 
 function Movies() {
   return (
-    <Container>
-      <h4>Recommended For You</h4>
-      <Content>
-        <Link to={"/detail"}>
-          <Wrap>
-            <img
-              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-              alt="the simpsons"
-            />
-          </Wrap>
-        </Link>
-        <Link to={"/detail"}>
-          <Wrap>
-            <img
-              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-              alt="the simpsons"
-            />
-          </Wrap>
-        </Link>
-        <Link to={"/detail"}>
-          <Wrap>
-            <img
-              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-              alt="the simpsons"
-            />
-          </Wrap>
-        </Link>
-        <Link to={"/detail"}>
-          <Wrap>
-            <img
-              src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
-              alt="the simpsons"
-            />
-          </Wrap>
-        </Link>
-      </Content>
-    </Container>
+    <>
+      <Container>
+        <h4>Recommended For You</h4>
+        <Content>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://th.bing.com/th/id/OIP.ZiqeR3JHvSbptxibUkEBsQHaEK?pid=ImgDet&rs=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+        </Content>
+      </Container>
+      <Container>
+        <h4>Trending</h4>
+        <Content>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://i0.wp.com/thefutureoftheforce.com/wp-content/uploads/2020/01/img_6292.png?fit=1920%2C1080&ssl=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://i0.wp.com/thefutureoftheforce.com/wp-content/uploads/2020/01/img_6292.png?fit=1920%2C1080&ssl=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://i0.wp.com/thefutureoftheforce.com/wp-content/uploads/2020/01/img_6292.png?fit=1920%2C1080&ssl=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+          <Link to={"/detail"}>
+            <Wrap>
+              <img
+                src="https://i0.wp.com/thefutureoftheforce.com/wp-content/uploads/2020/01/img_6292.png?fit=1920%2C1080&ssl=1"
+                alt="the simpsons"
+              />
+            </Wrap>
+          </Link>
+        </Content>
+      </Container>
+    </>
   );
 }
 
